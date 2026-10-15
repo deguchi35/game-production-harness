@@ -11,6 +11,8 @@ runs/
 .game-production-harness-local/
 private/
 local-settings.json
+*.local.json
+reports/
 
 # Unity generated directories and local editor state
 [Ll]ibrary/

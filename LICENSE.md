@@ -1,8 +1,8 @@
-# 文書と図のライセンス
+# 文書・図・コードのライセンス
 
 © 2026 KOUSHIROU WORKS
 
-このリポジトリにあるKOUSHIROU WORKSが作成した独自の説明文、手順書、プロンプト文書、図は、別途表示がない限り **Creative Commons Attribution 4.0 International（CC BY 4.0）** で提供します。
+このリポジトリにあるKOUSHIROU WORKSが作成した独自の説明文、手順書、プロンプト文書、図、コード、テスト、架空サンプルは、別途表示がない限り **Creative Commons Attribution 4.0 International（CC BY 4.0）** で提供します。
 
 - [ライセンスの日本語要約](https://creativecommons.org/licenses/by/4.0/deed.ja)
 - [ライセンス全文](https://creativecommons.org/licenses/by/4.0/legalcode.ja)
@@ -23,6 +23,6 @@
 
 リンクや出典の記載は、リンク先を本ライセンスで再配布できるという意味ではありません。
 
-現在は文書と図のみで、実行可能なハーネスコードは未実装です。将来追加するソフトウェアのライセンスは別途明示します。現段階でMITライセンスのコードが存在するとは表明しません。
+初期のローカル検証CLIとテストにも既存のCC BY 4.0を適用します。MIT等への変更は行っていません。Blender／Unity等の第三者ソフトウェアには、それぞれのライセンスが適用されます。
 
 参考資料の要約と、今回独自に設計した手順はdocs/SOURCES.mdで区別しています。動作や制作成果を保証するものではありません。
