@@ -2,7 +2,7 @@
 
 初めて使う場合は[QUICKSTART](../docs/QUICKSTART.md)から進める。WindowsのClaude Desktopで **Code → Local → 対象Unityプロジェクト** を選び、最初はManualなど承認を確認できるモードを使う。Chat／Coworkへ貼ることやCloudを選ぶことでは、同じローカル接続確認にならない。
 
-このキットには実行可能なハーネスや生成スクリプトはまだない。**Aを送る → 調査と計画を確認する → Bの許可範囲を記入して送る**、の順に進める。同じScene／.blendを別セッションが編集中なら統合し、二重に動かさない。
+この文書は外部AIを使う場合の任意テンプレート。KOUが実装した[ローカルCLI](../docs/LOCAL_HARNESS.md)の実行には不要で、そのpreflightとは別手順です。生成スクリプトはまだない。**Aを送る → 調査と計画を確認する → Bの許可範囲を記入して送る**、の順に進める。同じScene／.blendを別セッションが編集中なら統合し、二重に動かさない。
 
 ## 入力欄
 
@@ -27,7 +27,7 @@ Blender実行パス：［実パス／不明］
 
 入力欄のPROJECT_ROOTを実際に確認してください。README.md、docs/QUICKSTART.md、docs/WORKFLOW.md、docs/HARNESS_SPEC.md、docs/SOURCES.mdをHARNESS_REPOまたは添付から読み、読めたファイル名を答えてください。プロジェクト側の既存CLAUDE.md等も確認し、上書きしないでください。資料やプロジェクトにアクセスできなければ、読んだふりをせず不足を知らせてください。
 
-このキットは文書と設計だけで、doctor／plan／generate等のCLI、schemas、生成・検査スクリプトは未実装です。設計上の名称を既存コマンドとして実行しないでください。
+実装済みなのはharness.pyの設定・ファイル検査とJSON記録だけです。doctor／plan／generate等のCLI、制作物の品質検査・生成処理は未実装です。設計上の名称を既存コマンドとして実行しないでください。
 
 読み取り中心で、次を確認してください。
 
