@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="576" viewBox="0 0 480 576" role="img" aria-labelledby="title desc">
+  <title id="title">A proposed production loop, with evidence at every gate</title>
+  <desc id="desc">Five planned steps: generate with CLI; observe and locally adjust with MCP; review images and numeric checks; verify Unity playback and recorded audio; measure on an Android device. Evidence must accompany every step. Fix failed items and re-check. This diagram does not represent completed execution.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L5 4 L1 7" fill="none" stroke="#99B6B1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <rect x="1" y="1" width="478" height="574" rx="22" fill="#F8FBFA" stroke="#DDE7E4"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="28" y="35" fill="#407166" font-size="12" font-weight="700" letter-spacing="1.8">PROPOSED WORKFLOW</text>
+    <text x="28" y="67" fill="#173D35" font-size="26" font-weight="700">Make. Inspect. Verify.</text>
+    <text x="28" y="91" fill="#536C66" font-size="15">Evidence at every gate.</text>
+    <path d="M52 157 V180 M52 235 V258 M52 313 V336 M52 391 V414" stroke="#99B6B1" stroke-width="2" marker-end="url(#arrow)"/>
+    <g fill="#FFFFFF" stroke="#DDE7E4">
+      <rect x="28" y="108" width="424" height="64" rx="12"/>
+      <rect x="28" y="186" width="424" height="64" rx="12"/>
+      <rect x="28" y="264" width="424" height="64" rx="12"/>
+      <rect x="28" y="342" width="424" height="64" rx="12"/>
+      <rect x="28" y="420" width="424" height="64" rx="12"/>
+    </g>
+    <g fill="#E7F6F2">
+      <circle cx="53" cy="140" r="17"/><circle cx="53" cy="218" r="17"/><circle cx="53" cy="296" r="17"/><circle cx="53" cy="374" r="17"/><circle cx="53" cy="452" r="17"/>
+    </g>
+    <g fill="#117C66" font-size="16" font-weight="700" text-anchor="middle">
+      <text x="53" y="146">1</text><text x="53" y="224">2</text><text x="53" y="302">3</text><text x="53" y="380">4</text><text x="53" y="458">5</text>
+    </g>
+    <g fill="#173D35" font-size="21" font-weight="700">
+      <text x="84" y="136">CLI · Generate</text>
+      <text x="84" y="214">Inspect · Adjust</text>
+      <text x="84" y="292">Images + numeric QA</text>
+      <text x="84" y="370">Unity · Playback + audio</text>
+      <text x="84" y="448">Device · Measure</text>
+    </g>
+    <g fill="#536C66" font-size="15">
+      <text x="84" y="158">Inputs / seed / versions</text>
+      <text x="84" y="236">Optional MCP / fix locally</text>
+      <text x="84" y="314">Open images / record findings</text>
+      <text x="84" y="392">Recorded play / event timestamps</text>
+      <text x="84" y="470">Frame time / memory / thermal trend</text>
+    </g>
+    <rect x="28" y="502" width="424" height="48" rx="12" fill="#173D35"/>
+    <text x="240" y="523" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="700">Keep evidence. Fix failed items.</text>
+    <text x="240" y="541" text-anchor="middle" fill="#B7DDD2" font-size="13">Re-check before moving on.</text>
+  </g>
+</svg>

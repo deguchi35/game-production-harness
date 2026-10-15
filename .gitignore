@@ -1,0 +1,28 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Private execution evidence belongs outside this public repository
+runs/
+.game-production-harness-local/
+private/
+local-settings.json
+
+# Unity generated directories and local editor state
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uilds/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
